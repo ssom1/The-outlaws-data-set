@@ -58,11 +58,9 @@
 - 전체 데이터 셋에 적용 했을 때 얼마나 맞았는지(캡쳐)
 
 
-# 4. 토픽 모델링 
-토픽 모델링
+# 4. 토픽 모델링
 
-C:\dev\watcha_crawler\.venv\Scripts\python.exe C:\dev\watcha_crawler\topic_model.py 
-데이터셋 컬럼: Index(['Review', 'Score', 'label'], dtype='object')
+#### 범죄도시1
 Positive texts (label=1): ['너 내가 누군지 아니? 하얼빈 장첸이야', '신선한 충격', '마석도는 정의로운 개그캐였고\n장첸은 분명 쓰레기인데 묘하게 신경 쓰이는 이유가 뭘까']
 Negative texts (label=0): ['구려', '이런 영화 딱 싫어', '그저 대한민국 영화 시장의 현 실태']
 Processed texts (sample): [[], ['영화'], ['대한민국', '영화', '시장', '실태']]
@@ -77,13 +75,7 @@ LDA 토픽 결과:
 토픽 #4: 0.058*"영화" + 0.056*"필요" + 0.050*"흥행" + 0.033*"장면" + 0.030*"스토리"
 토픽 #5: 0.092*"영화" + 0.082*"마동석" + 0.055*"폭력" + 0.034*"장첸" + 0.031*"여성"
 
-Process finished with exit code 0
-
-
-
-범죄도시2
-C:\dev\watcha_crawler\.venv\Scripts\python.exe C:\dev\watcha_crawler\topic_model.py 
-데이터셋 컬럼: Index(['Review', 'Score', 'label'], dtype='object')
+#### 범죄도시2
 Positive texts (label=1): ['액션과 유머, 긴장과 조화를 모두 잡은 시리즈 최고작', '강해상', '두익과 해상의 관계성이 나를 미치게 만들어']
 Negative texts (label=0): ['배우가 손석구가 아니었다면 과연 끝까지 볼 수 있었을까?', '옥수수밭 강해상도\n장첸을 그리워하게 만드는 매개체일뿐', '싫다고햇다']
 Processed texts (sample): [['석구'], ['옥수수', '강해', '장첸', '매개체'], []]
@@ -98,11 +90,7 @@ LDA 토픽 결과:
 토픽 #4: 0.089*"영화" + 0.078*"마동석" + 0.067*"캐릭터" + 0.047*"액션" + 0.043*"매력"
 토픽 #5: 0.069*"장첸" + 0.051*"폭력" + 0.047*"마동석" + 0.039*"펀치" + 0.039*"마석"
 
-Process finished with exit code 0
-
-범죄도시3
-C:\dev\watcha_crawler\.venv\Scripts\python.exe C:\dev\watcha_crawler\topic_model.py 
-데이터셋 컬럼: Index(['Review', 'Score', 'label'], dtype='object')
+#### 범죄도시3
 Positive texts (label=1): ['모텔씬 보고 개웃음ㅋㅋㅋㅋㅋ', '빌런이 뭘 하고싶은건지 모르겠다', '섹시섹시주성철']
 Negative texts (label=0): ['이준혁 아니였으면 안 봤음', '박장대소감은 없고\n반전은 없다', '빌런도 반, 재미도 반, 집중도 반']
 Processed texts (sample): [['이준혁'], ['박장대소', '반전'], ['재미', '집중']]
@@ -117,11 +105,8 @@ LDA 토픽 결과:
 토픽 #4: 0.074*"영화" + 0.058*"마동석" + 0.050*"도시" + 0.043*"범죄" + 0.040*"개그"
 토픽 #5: 0.123*"영화" + 0.051*"마동석" + 0.042*"범죄" + 0.039*"마석" + 0.037*"캐릭터"
 
-Process finished with exit code 0
 
-범죄도시4
-C:\dev\watcha_crawler\.venv\Scripts\python.exe C:\dev\watcha_crawler\topic_model.py 
-데이터셋 컬럼: Index(['Review', 'Score', 'label'], dtype='object')
+#### 범죄도시4
 Positive texts (label=1): ['엄마가 보길래 옆에서 잠깐 본다고 서있다가 우뚝선상태로 끝까지봄', '평점 무슨일이니; 백창기 개존나 존잘띠😍', '의리로 보는 영화\n하지만 큰 기대없으면 빵빵터지는 그런.\n5편이 나온다면 또 봐야지']
 Negative texts (label=0): ['그만.', '이쁘게 싼 똥같았다', '“혼자서 괜찮겠어?”\n“…외롭지“\n\n아슬아슬 했던 3편을 넘어 4부터는 외로운 싸움처럼 보인다. 힘이 빠져 보인다. 당연한 결과라고 본다. 다만 성의가 없어지는 느낌이 들면 안되는데 성의가 없었다.']
 Processed texts (sample): [[], [], ['혼자', '싸움', '결과', '성의', '느낌', '성의']]
@@ -135,9 +120,6 @@ LDA 토픽 결과:
 토픽 #3: 0.057*"액션" + 0.039*"영화" + 0.038*"시리즈" + 0.034*"범죄" + 0.031*"도시"
 토픽 #4: 0.056*"재미" + 0.044*"시리즈" + 0.032*"영화" + 0.024*"기대" + 0.024*"이수"
 토픽 #5: 0.071*"시리즈" + 0.057*"영화" + 0.050*"범죄" + 0.048*"도시" + 0.040*"액션"
-
-Process finished with exit code 0
-
 
 ### 4.1 분석 개요
 KOELECTRA로 예측한 라벨에 대해서 범죄도시 시리즈 별로 부정적인 이슈가 무엇인지
