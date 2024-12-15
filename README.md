@@ -1,5 +1,6 @@
+<img src= "https://github.com/ssom1/example/blob/main/%EB%B2%94%EC%A3%84%EB%8F%84%EC%8B%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8F%AC%EC%8A%A4%ED%84%B0.png">
 
-# ELECTRA 모델 를 활용한 <br>범죄도시 시리즈별 리뷰 분석 프로젝트
+# <p align="center" style = "font-size:30"> **🚨ELECTRA 모델 를 활용한🚨 <br>범죄도시 시리즈별 리뷰 분석 프로젝트** <p>
 
 # 1. 개요
 ### 1-1 범죄도시 시리즈를 제작된 계기
