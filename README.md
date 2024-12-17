@@ -116,10 +116,11 @@ Selenium은 웹 브라우저를 이용하는 자동화 프로그램입니다.<br
 Train & Validation Accuracy 차트
 
 #### 차트 개요
-X축: Epoch (학습 반복 횟수)
-Y축: Accuracy (정확도)
-세부 분석
-Train 정확도 (파란색)
+X축: Epoch (학습 반복 횟수)<br>
+Y축: Accuracy (정확도)<br>
+
+세부 분석<br>
+Train 정확도 (파란색)<br>
 
 학습이 진행될수록 Train Accuracy가 꾸준히 증가하고 있습니다.
 초기 정확도는 낮았지만, Epoch가 진행되며 빠르게 정확도가 상승하고 마지막 Epoch에서 최고치에 도달합니다.
